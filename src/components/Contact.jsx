@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import Title from "./Title";
+import Title from "./home/Title";
 
 import img from "../assets/brand/contact.jpg"
 import { Button, Input, Textarea } from "@material-tailwind/react";

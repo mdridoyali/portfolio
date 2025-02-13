@@ -22,7 +22,7 @@ export default function Navbar() {
     const pathname = usePathname();
 
     return (
-        <div className="border-b shadow-md">
+        <div className="border-b shadow-md border">
             <nav className="w-10/12 flex justify-between items-center mx-auto py-2  ">
                 {/* Logo */}
                 <div className="w-10 md:w-6 flex">

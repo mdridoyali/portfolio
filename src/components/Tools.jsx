@@ -1,4 +1,4 @@
-import Title from "./Title";
+import Title from "./home/Title";
 
 import vsc from "../assets/Tools/vsc-removebg-preview.png"
 import figma from "../assets/Tools/figma-removebg-preview.png"

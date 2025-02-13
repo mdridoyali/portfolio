@@ -9,9 +9,9 @@ const Footer = () => {
       <div className="w-10/12 mx-auto py-7 flex flex-col md:flex-row items-center justify-between">
         
         {/* Left Side - Branding & Copyright */}
-        <div className="text-center md:text-left space-y-2">
+        <div className="text-center md:text-left space-y-2 flex flex-col justify-center items-center">
           <Link href="/" className="flex justify-center md:justify-start">
-            <Image src={logo} alt="Md Ridoy Logo" width={120} height={40} />
+            <Image src={logo} alt="Md Ridoy Logo" width={80} height={80} />
           </Link>
           <p className="text-sm">© 2025 Md Ridoy. All rights reserved.</p>
         </div>

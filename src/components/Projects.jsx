@@ -1,4 +1,4 @@
-import Title from "./Title";
+import Title from "./home/Title";
 import banner from "../assets/writes/banner.jpg"
 import popular from "../assets/writes/populer.jpg"
 import allblog from "../assets/writes/allb.jpg"

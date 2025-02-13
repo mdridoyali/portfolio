@@ -1,4 +1,4 @@
-import Title from "./Title";
+import Title from "./home/Title";
 
 const Educations = () => {
     return (
