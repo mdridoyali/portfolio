@@ -8,69 +8,82 @@ import "swiper/css/pagination";
 import Title from "./Title";
 import Image from "next/image";
 
+
+import html from "@/assets/brand/html.webp"
+import css from "@/assets/brand/CSS3_logo.svg.png"
+import js from "@/assets/brand/js (2).png"
+import tailwind from "@/assets/brand/tailwind.png"
+import react from "@/assets/brand/re.png"
+import firebase from "@/assets/brand/firebase.png"
+import node from "@/assets/brand/NODE2.png"
+import express from "@/assets/brand/express.png"
+import mongodb from "@/assets/brand/mongodb.png"
+
+
+
 const skills = [
   {
     name: "HTML5",
     percentage: "92%",
     bgColor: "bg-orange-50",
     hoverBgColor: "hover:bg-orange-100",
-    image: "/path/to/html.png",
+    image: html,
   },
   {
     name: "CSS3",
     percentage: "90%",
     bgColor: "bg-blue-100",
     hoverBgColor: "hover:bg-blue-200",
-    image: "/path/to/css.png",
+    image: css
   },
   {
     name: "Tailwind",
     percentage: "90%",
     bgColor: "bg-lime-100",
     hoverBgColor: "hover:bg-lime-200",
-    image: "/path/to/tailwind.png",
+    image: tailwind
   },
   {
     name: "JavaScript",
     percentage: "80%",
     bgColor: "bg-teal-100",
     hoverBgColor: "hover:bg-teal-200",
-    image: "/path/to/js.png",
+    image: js
   },
   {
     name: "React",
     percentage: "85%",
     bgColor: "bg-purple-100",
     hoverBgColor: "hover:bg-purple-200",
-    image: "/path/to/react.png",
+    image: react
   },
   {
     name: "Firebase",
     percentage: "90%",
     bgColor: "bg-light-blue-100",
     hoverBgColor: "hover:bg-blue-200",
-    image: "/path/to/firebase.png",
+    image: firebase
   },
   {
     name: "Node.JS",
     percentage: "70%",
     bgColor: "bg-red-100",
     hoverBgColor: "hover:bg-red-200",
-    image: "/path/to/node.png",
+    image: node
   },
   {
     name: "Express.JS",
     percentage: "70%",
     bgColor: "bg-amber-100",
     hoverBgColor: "hover:bg-amber-200",
-    image: "/path/to/express.png",
+    image: express
   },
   {
     name: "MongoDB",
     percentage: "70%",
     bgColor: "bg-blue-100",
     hoverBgColor: "hover:bg-blue-200",
-    image: "/path/to/mongodb.png",
+    image: mongodb
   },
 ];
 
