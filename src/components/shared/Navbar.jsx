@@ -23,7 +23,7 @@ export default function Navbar() {
 
     return (
         <div className="border-b shadow-md">
-            <nav className="w-11/12 flex justify-between items-center mx-auto py-2  ">
+            <nav className="w-10/12 flex justify-between items-center mx-auto py-2  ">
                 {/* Logo */}
                 <div className="w-10 md:w-6 flex">
                     <Link className="flex gap-2 items-center justify-center" href={'/'}> <Image className="" src={logo} alt="logo" width={120} /><h1>Ridoy</h1></Link>
