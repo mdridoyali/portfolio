@@ -90,7 +90,7 @@ const skills = [
 const Skills = () => {
   return (
     <div id="skills" className="w-11/12 md:w-10/12 mx-auto mb-16 ">
-     <div  className='mb-7'> <Title heading="My Skills" /></div>
+     <div  className='mb-7'> <Title heading="Skills" /></div>
       <Swiper
         slidesPerView={2} // মোবাইলে ২টি স্কিল দেখাবে
         spaceBetween={15}

@@ -12,8 +12,8 @@ export default function Home() {
       <Banner/>
       <About/>
       <Skills/>
-      <Educations/>
       <Experience/>
+      <Educations/>
       <Achievement/>
       <Tools/>
     </div>

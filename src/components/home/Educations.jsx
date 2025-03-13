@@ -4,7 +4,7 @@ import Title from "./Title";
 const Educations = () => {
     return (
         <div className="mb-20 w-11/12 md:w-10/12 mx-auto  ">
-            <Title heading={'My Educations'} />
+            <Title heading={'Educations'} />
             <div className="grid md:grid-cols-2 mt-16 lg:grid-cols-3 gap-10">
                 <div className="rounded-lg  shadow-2xl border hover:bg-blue-700 hover:text-white transition-colors">
                     <div className="p-7 space-y-4">

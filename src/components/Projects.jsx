@@ -58,6 +58,11 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+
+
+
+
+                
                 <hr className="my-8" />
                 <div   data-aos="flip-right" className="md:flex ">
                     <div className="flex-1 grid grid-cols-2 gap-3 md:border-r-2  border-blue-300  pr-2">

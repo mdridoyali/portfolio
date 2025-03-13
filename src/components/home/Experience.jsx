@@ -4,8 +4,8 @@ import Title from "./Title";
 
 const Experience = () => {
     return (
-        <div id="experience" className="mb-16 w-11/12 md:w-10/12 mx-auto">
-            <Title heading={'My experience'} />
+        <div className="mb-16 w-11/12 md:w-10/12 mx-auto">
+            <Title heading={'Experience'} />
             <div className="flex lg:w-6/12 mx-auto mt-7 border-b-2 border-blue-300">
                 <div className="flex-1 border-r-2 border-blue-300 pr-5">
                     <p className="text-justify">

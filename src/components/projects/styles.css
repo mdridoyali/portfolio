@@ -1,0 +1,70 @@
+/* 🌟 Base Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #eee;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* 🌟 Swiper Styles */
+.swiper {
+    width: 100%;
+    height: 200px; /* Default height */
+    max-width: 500px; /* Ensuring max width */
+    overflow: hidden;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Responsive Image */
+}
+
+/* 🌟 Responsive Grid */
+.project-container {
+    display: flex;
+    flex-direction: column; /* Mobile default */
+    gap: 10px;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ✅ Medium Devices (md) */
+@media (min-width: 768px) {
+    .project-container {
+        flex-direction: row; /* Horizontal Layout */
+        align-items: center;
+    }
+
+    .project-content {
+        flex: 1;
+        padding-left: 10px;
+    }
+}
+
+/* ✅ Large Devices (lg) */
+@media (min-width: 1024px) {
+    .swiper {
+        height: 250px; /* Larger height for bigger screens */
+    }
+}
