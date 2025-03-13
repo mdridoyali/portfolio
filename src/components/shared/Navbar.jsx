@@ -26,7 +26,7 @@ export default function Navbar() {
             <nav className="w-10/12 flex justify-between items-center mx-auto py-2  ">
                 {/* Logo */}
                 <div className="w-10 md:w-6 flex">
-                    <Link className="flex gap-2 items-center justify-center" href={'/'}> <Image className="" src={logo} alt="logo" width={120} /><h1>Ridoy</h1></Link>
+                    <Link className="flex gap-2 items-center justify-center" href={'/'}> <Image className="" src={logo} alt="logo" width={60} /><h1 className="text-5xl font-semibold">Ri<span className="text-blue-600">doy</span></h1></Link>
                 </div>
 
                 {/* Mobile Menu */}
