@@ -54,13 +54,13 @@ const Contact = () => {
             <div className="md:flex md:gap-20 justify-between items-center">
                 <form className="flex-1 md:w-1/2 mx-auto space-y-8" ref={form} onSubmit={sendEmail}>
                     <div>
-                        <Input label="Name" color="blue" required type="text" name="user_name" />
+                        <Input label="Name" placeholder='Full Name' color="blue" required type="text" name="user_name" />
                     </div>
                     <div>
-                        <Input label="Email" color="purple" required type="email" name="user_email" />
+                        <Input label="Email" placeholder="Email" color="purple" required type="email" name="user_email" />
                     </div>
                     <div>
-                        <Textarea label="Message" color="indigo" required name="message" />
+                        <Textarea label="Message" placeholder="Message" color="indigo" required name="message" />
                     </div>
                     <Button color="blue" className="btn w-full " type="submit" >Send Message</Button>
                 </form>
