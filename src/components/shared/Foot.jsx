@@ -4,7 +4,7 @@ import instagram from "@/assets/logo/linkedin.png"
 import email from "@/assets/logo/linkedin.png"
 import github from "@/assets/logo/linkedin.png"
 import { FaLongArrowAltRight, FaWhatsapp, FaMailBulk } from "react-icons/fa";
-import logo from "@/assets/logo.png"
+import logo from "@/assets/logo_blue.png"
 import Link from "next/link"
 import Image from "next/image"
 

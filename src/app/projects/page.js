@@ -1,5 +1,6 @@
 import Title from '@/components/home/Title';
-import Project from '@/components/projects/project';
+import Project from '@/components/projects/Projy
+yieldect';
 import React from 'react';
 
 const page = () => {

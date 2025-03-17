@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from '@/assets/logo.png'
+import logo from '@/assets/logo_blue.png'
 import { FaHome, FaServicestack, FaArrowRight } from "react-icons/fa";
 import { MdRoundaboutRight, MdAddCall, MdLogin } from "react-icons/md";
 import { usePathname } from "next/navigation";

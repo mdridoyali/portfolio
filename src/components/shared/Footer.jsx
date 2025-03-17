@@ -1,5 +1,5 @@
 import { FaLinkedin, FaFacebook, FaInstagram, FaEnvelope, FaGithub, FaHeart } from "react-icons/fa";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo_blue.png";
 import Link from "next/link";
 import Image from "next/image";
 
