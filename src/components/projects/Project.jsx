@@ -1,10 +1,6 @@
 "use client"
 
-import img1 from '@/assets/medi/1.png'
-import img2 from '@/assets/medi/2.png'
-import img3 from '@/assets/medi/3.png'
-import img4 from '@/assets/medi/4.png'
-import img5 from '@/assets/medi/5.png'
+
 
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
@@ -22,7 +18,7 @@ import './styles.css';
 import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
 import Image from 'next/image';
 
-export default function Project() {
+export default function Project({img1, img2, img3, img4, img5}) {
     return (
         <>
             <Swiper
