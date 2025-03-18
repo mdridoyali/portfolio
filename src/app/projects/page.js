@@ -15,6 +15,7 @@ import meetImg3 from '@/assets/meetwave/3.png'
 import meetImg4 from '@/assets/meetwave/4.png'
 import meetImg5 from '@/assets/meetwave/5.png'
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 
 const page = () => {
@@ -42,9 +43,11 @@ const page = () => {
                     
                     {/* Buttons */}
                     <div className="flex gap-2 mt-2">
-                        <Button href="https://github.com/mdridoyali/medi-camp-client-12" target="blank" className="btn btn-sm bg-blue-600 border-none text-white">Client</Button>
-                        <Button href="https://github.com/mdridoyali/medi-camp-server-12" target="blank" className="btn btn-sm bg-blue-600 border-none text-white">Server</Button>
-                        <Button href="https://medicamp-603c8.web.app/" target="blank" className="btn btn-sm bg-blue-600 border-none text-white">Preview</Button>
+                        <Button target="blank" className="btn btn-sm bg-blue-600 border-none text-white"><Link  href="https://github.com/mdridoyali/medical-camp-client">Client</Link></Button>
+
+                        <Button target="blank" className="btn btn-sm bg-blue-600 border-none text-white"><Link href="https://github.com/mdridoyali/medical-camp-server">Server</Link></Button>
+
+                        <Button target="blank" className="btn btn-sm bg-blue-600 border-none text-white"><Link href="https://medi-camp.netlify.app/" >Preview</Link></Button>
                     </div>
                 </div>
             </div>
@@ -66,9 +69,11 @@ const page = () => {
                     
                     {/* Buttons */}
                     <div className="flex gap-2 mt-2">
-                        <Button href="https://github.com/mdridoyali/medi-camp-client-12" target="blank" className="btn btn-sm bg-blue-600 border-none text-white">Client</Button>
-                        <Button href="https://github.com/mdridoyali/medi-camp-server-12" target="blank" className="btn btn-sm bg-blue-600 border-none text-white">Server</Button>
-                        <Button href="https://medicamp-603c8.web.app/" target="blank" className="btn btn-sm bg-blue-600 border-none text-white">Preview</Button>
+                    <Button target="blank" className="btn btn-sm bg-blue-600 border-none text-white"><Link  href="https://github.com/mdridoyali/meetWave-client">Client</Link></Button>
+
+                    <Button target="blank" className="btn btn-sm bg-blue-600 border-none text-white"><Link href="https://github.com/mdridoyali/meetWave-server">Server</Link></Button>
+
+                    <Button target="blank" className="btn btn-sm bg-blue-600 border-none text-white"><Link href="https://meet-wave.vercel.app/" >Preview</Link></Button>
                     </div>
                 </div>
                   {/* Swiper Section */}
